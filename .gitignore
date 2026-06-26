@@ -1,0 +1,80 @@
+# Android / Gradle
+.gradle/
+.gradle-user/
+build/
+**/build/
+local.properties
+*.iml
+captures/
+
+# Android Studio / local IDE state
+.idea/
+.claude/
+.agents/
+AGENTS.md
+
+# Signing keys and local credentials
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.der
+keystore.properties
+secrets.properties
+
+# Generated APKs and app bundles
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Native and compiled outputs
+*.class
+*.so
+*.dll
+*.dylib
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data, datasets, model weights, and training outputs
+/data/
+/datasets/
+/dataset/
+/outputs/
+/output/
+/runs/
+/checkpoints/
+/weights/
+/models/
+/model_versions/
+/training_outputs/
+/wandb/
+/mlruns/
+*.onnx
+!app/src/main/assets/model_int8.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.pb
+*.tflite
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# OS and tool noise
+.DS_Store
+Thumbs.db
